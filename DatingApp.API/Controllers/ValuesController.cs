@@ -21,6 +21,7 @@ namespace DatingApp.API.Controllers
 
         }
         // GET api/value
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetValue()
         {
